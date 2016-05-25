@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>DIV + IMG + LOADDING</title>
+		<link rel="stylesheet" href="css/extends-alert.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/extends.alert.js" ></script>
+		<script language="javascript" type="text/javascript">
+			$(document).ready(function() { 
+					aler.init();
+			}); 
+				
+			     
+		</script>
+	
+		
+	</head>
+
+	<body>
+		<input id="btnshow" type="button" value="Show-messager-error" onclick="aler.alertError()" />
+		<input id="btnshow" type="button" value="Show-messager-info" onclick="aler.alertInfo()" />
+		<input id="btnshow" type="button" value="Show-messager-warning" onclick="aler.alertWarning();" />
+		<input id="btnshow" type="button" value="Show-messager-question" onclick="aler.alertQuestion()" />
+		<!--
+		<div id="showAlert" >
+			<div id="showHead">操作提示</div>
+			<a id="closeWin" class="closeWin">&nbsp;</a>
+			<div id="showbody">
+				<div id="imgloadding"></div>
+				<div id="textAler">最多不能超过9个字符整。最多不能超过9个字符整。。</div>
+			</div>
+			<div id="showbottom" onclick="hidediv();" >确认</div>
+		</div>
+		-->
+		
+	</body>
+</html>
